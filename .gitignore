@@ -206,3 +206,9 @@ nccl_*
 [Tt]humbs.db
 *.DS_Store
 
+# Airflow Forever Alone
+logs/
+airflow.cfg
+airflow.db
+standalone_admin_password.txt
+webserver_config.py

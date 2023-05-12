@@ -10,8 +10,8 @@ from bs4 import BeautifulSoup as bs
 import sqlite3
 
 
-tmp_data_path = '/home/rohwid/simple-airflow-pipeline/dags/data/temp/data-390.json'
-sqlite_path = '/home/rohwid/simple-airflow-pipeline/dags/data/db/invoice.db'
+tmp_data_path = '/home/rohwid/free-course/simple-e2e-de/day-4/dags/data/temp/data-390.json'
+sqlite_path = '/home/rohwid/free-course/simple-e2e-de/day-4/dags/data/db/invoice.db'
 
 con = sqlite3.connect(sqlite_path)
 cur = con.cursor()
